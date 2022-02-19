@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+@media screen and (max-width: 1000px) {
+    #content,
+    #foto,
+    #guru,
+    #kelas,
+    #kontak,
+    #kolom,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #82e2d4f1;
+    text-align: center;
+    color: white;
+ }
+
+header {
+    display: inline;
+ }
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+
+nav {
+    background-color: #4abdac;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+ }
+
+a:hover {
+    font-weight: bold;
+    color: #a7eee3f1;
+}
+
+#content {
+    float: center;
+    width: 100%;
+ }
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+ }
+
+.flex-container-row {
+    display: flex;
+ }
+
+.kolom {
+    flex-grow: 1;
+   
+    /* properti pendukung */
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    background: rgb(248, 246, 246);
+    cursor: pointer;
+ }
+
+* {
+    box-sizing: border-box;
+ }
+
+.display {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 5px 5px;
+    font-size: 1em;
+ }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+.left {
+    text-align: left;
+}
+
+.warnakelas {
+    background: #ffee93;
+}
+
+.judulkelas {
+    background-color: #f7b733;
+}
+
+.warnaguru {
+    background: #ffc09f;
+}
+
+.judulguru {
+    background-color: #fc582a;
+}
+
+.judulfoto {
+    background-color: #ff7b7f;
+}
+
+.profile {
+    text-align: center;
+    background-color: #fae3d9;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 200px;
+ }
+
+.cardprofil {
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(248, 246, 246);
+}
+
+table {
+    border-color: #fae3d9;
+    text-align: left;
+}
+
+#slidefoto{
+    width:80%;
+    margin:0 auto;
+    position: relative;
+    overflow:hidden;
+  }
+  
+.slide{
+    width:100%;
+    
+    display: none;
+    animation-name:slide;
+    animation-duration:1s;
+  }
+
+img{
+   width:100%; 
+  }
+  
+@keyframes slide{
+    from{opacity:0.5;}
+    to{opacity:1;}
+  }
+  
+.control{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:1.5em;
+    padding:15px 10px;
+    border-radius:2px;
+    
+  }
+  
+.control:hover{
+    background:white;
+    transition:0.3s;
+  }
+  
+#panah-kiri{
+    background-color: #ffacae;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    left:5px;
+  }
+  
+#panah-kanan{
+    background-color: #ffacae;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right:5px;
+  }
+  
+#slide-dot{
+    text-align:center;
+  }
+  
+.dot{
+    display:inline-block;
+    background:#ffacae;
+    padding:8px;
+    border-radius:50%;
+    margin:10px 5px;
+  }
+  
+.active{
+    background: white;
+  }
+  
+@media (max-width:1000px){
+    #slider{width:100%;
+    
+    }
+    
+    .controls{
+      font-size:2em;
+    }
+    
+    #slide-dot{
+      display:none;
+    }
+  }
+
+.judulkontak {
+    background-color: #9dadce;
+}
+
+.warnakontak {
+    background-color: #d1cfe2;
+}
+
+.bold {
+    font-weight: bold;
+}
+footer {
+    padding: 10px;
+    color: white;
+    background-color: #4abdac;
+    text-align: center;
+    font-weight: bold;
+ }

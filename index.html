@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="assets/gambar/logo.png">
+	<title>TK Bunga Indah</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>TK Bunga Indah</h1>
+            <p>Website Sekolah taman kanak-kanak untuk anak umur 4 sampai 6 tahun.</p>
+            <p>Alamat : Jl.Puri 4 Kota Tangerang</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#kelas">KELAS</a></li>
+                <li><a href="#guru">GURU</a></li>
+                <li><a href="#foto">FOTO</a></li>
+                <li><a href="#kontak">KONTAK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content" class="flex-container-column">
+            <div id="kelas" class="display judulkelas">
+                <h1>PROGRAM KELAS</h1>
+            </div>
+            <div class="flex-container-row">
+                <div class="kolom">
+                    <article class="card warnakelas">
+                        <h2>KELAS CALISTUNG</h2>
+                        <img src="assets/gambar/calistung.png" class="featured-image" alt="CALISTUNG">
+                        <p class="justify">Kelas Calistung adalah kelas yang mempelajari tentang membaca, menulis dan menghitung untuk anak.</p>
+                    </article>
+                </div>
+                <div class="kolom">
+                    <article class="card warnakelas">
+                        <h2>KELAS AGAMA</h2>
+                        <img src="assets/gambar/agam.png" class="featured-image" alt="AGAMA">
+                        <p class="justify">Kelas Agama adalah kelas yang mempelajari tentang dasar-dasar agama yang dianut oleh anak. Seperti anak yang beragama islam maka terdapat kelas mengaji untuk anak.</p>
+                    </article>
+                </div>
+                <div class="kolom">
+                    <article class="card warnakelas">
+                        <h2>KELAS SENI</h2>
+                        <img src="assets/gambar/seni.png" class="featured-image" alt="SENI">
+                        <p class="justify">Kelas Seini adalah kelas yang mempelajari tentang menggambar, melukis dan bermain alat musik untuk anak.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div id="guru" class="display judulguru">
+                <h1>DAFTAR GURU</h1>
+            </div>
+            <div class="flex-container-row">
+                <div class="kolom">
+                    <article class="card warnaguru">
+                        <img src="assets/gambar/guru1.png" class="featured-image" alt="SALMA">
+                        <h2>SALMA WULAN</h2>
+                        <p class="left">Kepala Sekolah</p>
+                    </article>
+                </div>
+                <div class="kolom">
+                    <article class="card warnaguru">
+                        <img src="assets/gambar/guru2.png" class="featured-image" alt="PUTRA">
+                        <h2>PUTRA BASTIAN</h2>
+                        <p class="left">Guru Seni</p>
+                    </article>
+                </div>
+                <div class="kolom">
+                    <article class="card warnaguru">
+                        <img src="assets/gambar/guru3.png" class="featured-image" alt="KARINA">
+                        <h2>KARINA ANGEL</h2>
+                        <p class="left">Guru Calistung</p>
+                    </article>
+                </div>
+                <div class="kolom">
+                    <article class="card warnaguru">
+                        <img src="assets/gambar/guru4.png" class="featured-image" alt="LALA">
+                        <h2>LALA SANTI</h2>
+                        <p class="left">Guru Agama</p>
+                    </article>
+                </div>
+            </div>
+
+            <div id="foto" class="display judulfoto">
+                <h1>FOTO-FOTO</h1>
+            </div>
+            <div id="slidefoto">  
+                <div class="slide">
+                  <img src="assets/gambar/anak5.png" >
+                </div>
+                
+                <div class="slide">
+                   <img src="assets/gambar/anak2.png" >
+                </div>
+               
+                <div class="slide">
+                  <img src="assets/gambar/anak3.png" >
+                </div>
+                
+                <div class="slide">
+                  <img src="assets/gambar/anak4.png" >
+                </div>
+
+                <span class="control"  id="panah-kiri" onclick="prevSlide(-1)">&#10094<i aria-hidden="true"></i></span>
+                <span class="control" id="panah-kanan" onclick="nextSlide(1)">&#10095<i aria-hidden="true"></i></span>
+            </div>
+            <div id="slide-dot">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+
+            <div id="kontak" class="display judulkontak">
+                <h1>HUBUNGI KAMI</h1>
+            </div>
+            <div class="flex-container-row">
+                <div class="kolom">
+                    <article class="card warnakontak">
+                        <p class="bold">No. Telepon : 021-88907567</p>
+                    </article>
+                </div>
+                <div class="kolom">
+                    <article class="card warnakontak">
+                        <p class="bold">Email : tkbungaindah@gmail.com</p>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+
+        <aside class="cardprofil">  
+            <article class="profile card">
+                <header>
+                    <h2>BIODATA</h2>
+                    <figure>
+                        <img src="assets/gambar/pas foto.jpg" alt="NIKEN">
+                    </figure>
+                </header>
+                <section id="info">
+                    <table border="2">
+                       <tr>
+                          <th>Nama</th>
+                          <td>Niken Salsabillah Taliana</td>
+                       </tr>
+                       <tr>
+                          <th>Alamat</th>
+                          <td>Kutabumi, Tangerang</td>
+                       </tr>
+                       <tr>
+                          <th>No Telepon</th>
+                          <td>081311704496</td>
+                       </tr>
+                       <tr>
+                          <th>E-mail</th>
+                          <td>niken.bsalsabillaht27@gmail.com</td>
+                       </tr>
+                   </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Website TK Bunga Indah &copy; 2021, Nikenst</p>
+    </footer>
+
+    <script src="assets/slider.js"></script>
+</body>
+</html>
